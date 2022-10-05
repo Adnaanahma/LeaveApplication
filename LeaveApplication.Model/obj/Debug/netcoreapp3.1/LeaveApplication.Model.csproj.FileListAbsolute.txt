@@ -1,0 +1,10 @@
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\bin\Debug\netcoreapp3.1\LeaveApplication.Model.deps.json
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\bin\Debug\netcoreapp3.1\LeaveApplication.Model.dll
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\bin\Debug\netcoreapp3.1\LeaveApplication.Model.pdb
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\obj\Debug\netcoreapp3.1\LeaveApplication.Model.AssemblyInfoInputs.cache
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\obj\Debug\netcoreapp3.1\LeaveApplication.Model.AssemblyInfo.cs
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\obj\Debug\netcoreapp3.1\LeaveApplication.Model.csproj.CoreCompileInputs.cache
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\obj\Debug\netcoreapp3.1\LeaveApplication.Model.dll
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\obj\Debug\netcoreapp3.1\LeaveApplication.Model.pdb
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\obj\Debug\netcoreapp3.1\LeaveApplication.Model.csproj.AssemblyReference.cache
+C:\Users\Habeebullah\source\repos\NameCollector\LeaveApplication\LeaveApplication.Model\obj\Debug\netcoreapp3.1\LeaveApplication.Model.GeneratedMSBuildEditorConfig.editorconfig
