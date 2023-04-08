@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Api\\LeaveApplication.Api.csproj": {}
+    "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Api\\LeaveApplication.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Api\\LeaveApplication.Api.csproj": {
+    "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Api\\LeaveApplication.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Api\\LeaveApplication.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Api\\LeaveApplication.Api.csproj",
         "projectName": "LeaveApplication.Api",
-        "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Api\\LeaveApplication.Api.csproj",
-        "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Api\\obj\\",
+        "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Api\\LeaveApplication.Api.csproj",
+        "packagesPath": "C:\\Users\\Sumayya Uthman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sumayya Uthman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj": {
-                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj"
+              "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj": {
+                "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj"
               },
-              "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj": {
-                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj"
+              "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj": {
+                "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj"
               }
             }
           }
@@ -73,6 +70,10 @@
             "Microsoft.EntityFrameworkCore.UnitOfWork": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -103,20 +104,17 @@
         }
       }
     },
-    "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj": {
+    "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj",
+        "projectUniqueName": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj",
         "projectName": "LeaveApplication.Migrations",
-        "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj",
-        "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Migrations\\obj\\",
+        "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Migrations\\LeaveApplication.Migrations.csproj",
+        "packagesPath": "C:\\Users\\Sumayya Uthman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Migrations\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sumayya Uthman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,8 +128,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj": {
-                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj"
+              "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj": {
+                "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj"
               }
             }
           }
@@ -180,20 +178,17 @@
         }
       }
     },
-    "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj": {
+    "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj",
         "projectName": "LeaveApplication.Model",
-        "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj",
-        "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\obj\\",
+        "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj",
+        "packagesPath": "C:\\Users\\Sumayya Uthman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sumayya Uthman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -237,20 +232,17 @@
         }
       }
     },
-    "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj": {
+    "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj",
         "projectName": "LeaveApplication.Service",
-        "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj",
-        "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Service\\obj\\",
+        "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Service\\LeaveApplication.Service.csproj",
+        "packagesPath": "C:\\Users\\Sumayya Uthman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sumayya Uthman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -264,8 +256,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj": {
-                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj"
+              "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj": {
+                "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj"
               }
             }
           }

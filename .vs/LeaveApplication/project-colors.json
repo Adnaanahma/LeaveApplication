@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8046869c-9c23-437a-b320-570f2c812fd4": {
+      "ProjectGuid": "8046869c-9c23-437a-b320-570f2c812fd4",
+      "DisplayName": "LeaveApplication.Api",
+      "ColorIndex": 0
+    },
+    "94e508be-50ff-4739-9f07-ccf73f6ecf2e": {
+      "ProjectGuid": "94e508be-50ff-4739-9f07-ccf73f6ecf2e",
+      "DisplayName": "LeaveApplication.Model",
+      "ColorIndex": 1
+    },
+    "d73e16d5-6d7e-4020-8a67-75cf9df3c6de": {
+      "ProjectGuid": "d73e16d5-6d7e-4020-8a67-75cf9df3c6de",
+      "DisplayName": "LeaveApplication.Migrations",
+      "ColorIndex": 2
+    },
+    "cf314fc2-48ef-45db-ba52-090e16837918": {
+      "ProjectGuid": "cf314fc2-48ef-45db-ba52-090e16837918",
+      "DisplayName": "LeaveApplication.Service",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

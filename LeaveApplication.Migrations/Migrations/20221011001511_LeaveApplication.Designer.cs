@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LeaveApplication.Migrations.Migrations
 {
     [DbContext(typeof(LeaveApplicationContext))]
-    [Migration("20220904091611_leaveInitialMigration")]
-    partial class leaveInitialMigration
+    [Migration("20221011001511_LeaveApplication")]
+    partial class LeaveApplication
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -59,7 +59,7 @@ namespace LeaveApplication.Migrations.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employeess");
                 });
 
             modelBuilder.Entity("LeaveApplication.Model.Entity.Leave", b =>
@@ -74,8 +74,11 @@ namespace LeaveApplication.Migrations.Migrations
                     b.Property<int>("Duration")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("EmployeeId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("EmployeeId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Purpose")
                         .HasColumnType("nvarchar(max)");
@@ -88,7 +91,7 @@ namespace LeaveApplication.Migrations.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Leaves");
+                    b.ToTable("Leavess");
                 });
 #pragma warning restore 612, 618
         }

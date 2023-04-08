@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Habeebullah\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sumayya Uthman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj",
+      "projectUniqueName": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj",
       "projectName": "LeaveApplication.Model",
-      "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj",
-      "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\NameCollector\\LeaveApplication\\LeaveApplication.Model\\obj\\",
+      "projectPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\LeaveApplication.Model.csproj",
+      "packagesPath": "C:\\Users\\Sumayya Uthman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sumayya Uthman\\source\\repos\\Application\\New App\\LeaveApplication\\LeaveApplication.Model\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sumayya Uthman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

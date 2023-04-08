@@ -57,7 +57,7 @@ namespace LeaveApplication.Migrations.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employeess");
                 });
 
             modelBuilder.Entity("LeaveApplication.Model.Entity.Leave", b =>
@@ -72,8 +72,11 @@ namespace LeaveApplication.Migrations.Migrations
                     b.Property<int>("Duration")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("EmployeeId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("EmployeeId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Purpose")
                         .HasColumnType("nvarchar(max)");
@@ -86,7 +89,7 @@ namespace LeaveApplication.Migrations.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Leaves");
+                    b.ToTable("Leavess");
                 });
 #pragma warning restore 612, 618
         }

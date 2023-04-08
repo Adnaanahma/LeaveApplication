@@ -9,13 +9,13 @@ namespace LeaveApplication.Migrations
         {
         }
        
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<Leave> Leaves { get; set; }
+        public DbSet<Employee> Employeess { get; set; }
+        public DbSet<Leave> Leavess { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Employee>().ToTable("Employees");
-            modelBuilder.Entity<Leave>().ToTable("Leaves");
+            modelBuilder.Entity<Employee>().ToTable("Employeess");
+            modelBuilder.Entity<Leave>().ToTable("Leavess");
         }
     }
 }

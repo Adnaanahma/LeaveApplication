@@ -45,9 +45,9 @@ namespace LeaveApplication.Service.Services
                 _unitOfWork.GetRepository<Employee>().Insert(newEmployee);
                 await _unitOfWork.SaveChangesAsync();
 
-                return new BaseResponse { Message = "Employee Created Successfully", Status = true };
+                return new BaseResponse { Message = "Employee Created Successfully </br> Congratulations!!!", Status = true };
             }
-           else return new BaseResponse { Message = "Employee Already Exist", Status = false };
+           else return new BaseResponse { Message = "Employee Already Exist </br> Oops Sorry!!!", Status = false };
         }
 
         /// <summary>
@@ -97,9 +97,9 @@ namespace LeaveApplication.Service.Services
                 _unitOfWork.GetRepository<Employee>().Update(employee);
                 await _unitOfWork.SaveChangesAsync();
 
-                return new BaseResponse { Message = "Employee Updated Successfully", Status = true };
+                return new BaseResponse { Message = "Employee Updated Successfully </br> Congratulations!!!", Status = true };
             }
-           else return new BaseResponse { Message = "Employee Does not Exist", Status = false };
+           else return new BaseResponse { Message = "Employee Does not Exist </br> Oops Sorry!!!", Status = false };
         }
 
         /// <summary>
@@ -112,23 +112,15 @@ namespace LeaveApplication.Service.Services
             var employee = await _unitOfWork.GetRepository<Employee>().GetFirstOrDefaultAsync(x => x.Id == Id, null, null, false);
             if (employee != null)
             {
-                var newEmployee = new Employee();
-                {
-                    employee.FirstName = employee.FirstName;
-                    employee.LastName = employee.LastName;
-                    employee.Address = employee.Address;
-                    employee.EmailAddress = employee.EmailAddress;
-                    employee.PhoneNumber = employee.PhoneNumber;
-                    employee.DateOfBirth = employee.DateOfBirth;
-                };
-                _unitOfWork.GetRepository<Employee>().Delete(newEmployee);
+               
+                _unitOfWork.GetRepository<Employee>().Delete(employee);
                 await _unitOfWork.SaveChangesAsync();
 
-                return new BaseResponse { Message = ("Deleted Successful"), Status = (true) };
+                return new BaseResponse { Message = ("Deleted Successfully </br> Congratulations!!!"), Status = (true) };
 
             }
 
-           else return new BaseResponse { Message = ("Employee Does Not Exist"), Status = (false) };
+           else return new BaseResponse { Message = ("Employee Does Not Exist </br> Oops Sorry!!!"), Status = (false) };
         }
 
 

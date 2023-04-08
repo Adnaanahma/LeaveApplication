@@ -31,12 +31,12 @@ namespace LeaveApplication.Service.Services
                 var newLeave = new Leave
                 {
                     Id = Guid.NewGuid(),
-                    CreatedDate = DateTime.Now.Date,
+                    CreatedDate = DateTime.Now,
                     StartDate = model.StartDate,
                     EndDate = model.EndDate,
-                    Duration = model.Duration,
+                    Duration = model.EndDate.Day - model.StartDate.Day,
                     Purpose = model.Purpose,
-                    UpdatedDate = DateTime.Now.Date,
+                    UpdatedDate = DateTime.Now,
                 };
                 _unitOfWork.GetRepository<Leave>().Insert(newLeave);
                 await _unitOfWork.SaveChangesAsync();
@@ -86,7 +86,7 @@ namespace LeaveApplication.Service.Services
                     StartDate = model.StartDate,
                     EndDate = model.EndDate,
                     Purpose = model.Purpose,
-                    Duration = model.Duration,
+                    Duration = model.EndDate.Day - model.StartDate.Day,
                     UpdatedDate = DateTime.Now.Date,
                 };
                 _unitOfWork.GetRepository<Leave>().Update(Newleave);
@@ -108,17 +108,9 @@ namespace LeaveApplication.Service.Services
             var leave = await _unitOfWork.GetRepository<Leave>().GetFirstOrDefaultAsync(x => x.Id == id, null, null, false);
             if (leave != null)
             {
-                var newleave = new Leave
-                {
-                    EmployeeId = leave.EmployeeId,
-                    StartDate = leave.StartDate,
-                    EndDate = leave.EndDate,
-                    Duration = leave.Duration,
-                    Purpose = leave.Purpose, 
-                    CreatedDate = leave.CreatedDate,
-                };
+               
 
-                _unitOfWork.GetRepository<Leave>().Delete(newleave);
+                _unitOfWork.GetRepository<Leave>().Delete(leave);
                 await _unitOfWork.SaveChangesAsync();
 
                 return new BaseResponse { Message = ("Leave Deleted Successfully"), Status = (true) };
